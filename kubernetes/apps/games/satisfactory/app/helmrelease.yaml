@@ -89,7 +89,7 @@ spec:
     service:
       app:
         enabled: true
-        controller: *app
+        controller: satisfactory
         type: LoadBalancer
         allocateLoadBalancerNodePorts: true
         annotations:
